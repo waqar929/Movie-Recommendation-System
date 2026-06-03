@@ -125,7 +125,7 @@ plt.ylabel("Values")
 for i, value in enumerate(metrics_values):
     plt.text(i, value + 0.01, round(value, 3), ha='center')
 
-plt.show()
+# plt.show()
 
 vectorizer = CountVectorizer(stop_words='english')
 
