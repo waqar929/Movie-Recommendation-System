@@ -1,8 +1,8 @@
-# 🎬 Movie Recommendation System
+Movie Recommendation System
 
 A Hybrid Movie Recommendation System built using **SVD (Singular Value Decomposition)** and **Content-Based Filtering** techniques. The system recommends movies based on user preferences and movie similarities.
 
-## 🚀 Features
+Features
 
 - Movie Recommendations
 - Collaborative Filtering using SVD
@@ -11,7 +11,7 @@ A Hybrid Movie Recommendation System built using **SVD (Singular Value Decomposi
 - User-Friendly Web Interface
 - Fast and Accurate Recommendations
 
-## 🛠️ Technologies Used
+Technologies Used
 
 - Python
 - Flask
@@ -21,7 +21,7 @@ A Hybrid Movie Recommendation System built using **SVD (Singular Value Decomposi
 - Surprise (SVD)
 - HTML/CSS
 
-## 📂 Project Structure
+Project Structure
 
 movie-recommendation-system/
 │
@@ -38,46 +38,46 @@ movie-recommendation-system/
 ├── README.md
 └── .gitignore
 
-## ⚙️ Installation
+Installation
 
-### 1. Clone Repository
+Clone Repository
 
 git clone https://github.com/your-username/movie-recommendation-system.git
 cd movie-recommendation-system
 
-### 2. Install Dependencies
+Install Dependencies
 
 pip install -r requirements.txt
 
-### 3. Run Application
+Run Application
 
-python app.py
+python demo.py
 
-### 4. Open Browser
+Open Browser
 
 http://127.0.0.1:5000
 
-## 🧠 How It Works
+How It Works
 
-### Collaborative Filtering (SVD)
+Collaborative Filtering (SVD)
 
 The SVD model learns user preferences from movie ratings and predicts ratings for unseen movies.
 
-### Content-Based Filtering
+Content-Based Filtering
 
 Movies are recommended based on similarity between movie features such as genres, keywords, and descriptions.
 
-### Hybrid Recommendation
+Hybrid Recommendation
 
 The final recommendation combines:
 - SVD Predictions
 - Content Similarity Scores
 
-## 📊 Dataset
+Dataset
 
 This project uses the MovieLens dataset for training and evaluation.
 
-## 🎯 Future Improvements
+Future Improvements
 
 - Deep Learning Based Recommendations
 - TMDB API Integration
@@ -85,14 +85,14 @@ This project uses the MovieLens dataset for training and evaluation.
 - User Authentication
 - Real-Time Recommendations
 
-## 🤝 Contributing
+Contributing
 
 Contributions are welcome.
 
-## 📜 License
+License
 
 Educational and learning purposes.
 
-## 👨‍💻 Author
+Author
 
 Waqar Ali
