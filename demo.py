@@ -86,7 +86,7 @@ CORS(app)
 # TMDB API KEY
 # =====================================
 
-TMDB_API_KEY = "81dff40affa988594178773652b2836d"
+TMDB_API_KEY = "YOUR TMDB_API_KEY"
 
 predictions = model.test(testset)
 
